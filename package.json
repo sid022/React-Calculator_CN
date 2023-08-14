@@ -1,4 +1,3 @@
-
 {
   "homepage": "http://sid022.github.io/React-Calculator_CN",
   "name": "cn-calculator",
@@ -10,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^18.2.19",
     "@types/react-dom": "^18.2.7",
+    "deploy": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,8 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deplay":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
